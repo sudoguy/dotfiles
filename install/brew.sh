@@ -35,7 +35,6 @@ apps=(
   pandoc
   peco
   psgrep
-  python
   shellcheck
   ssh-copy-id
   tree
