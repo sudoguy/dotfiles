@@ -20,7 +20,7 @@ It targets macOS systems, but it should work on *nix as well (tested on a few Li
 * Development (Node/JS/JSON): [jq](https://stedolan.github.io/jq), [nodemon](https://nodemon.io), [peco](https://peco.github.io), [superstatic](https://github.com/firebase/superstatic), [underscore-cli](https://github.com/ddopson/underscore-cli)
 * Graphics: [ffmpeg](https://www.ffmpeg.org), [gifsicle](https://www.lcdf.org/gifsicle), [imagemagick](https://www.imagemagick.org), [svgo](https://github.com/svg/svgo)
 * macOS: [dockutil](https://github.com/kcrawford/dockutil), [Hammerspoon](https://www.hammerspoon.org), [Mackup](https://github.com/lra/mackup), [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
-* [macOS apps](https://github.com/webpro/dotfiles/blob/master/install/brew-cask.sh)
+* [macOS apps](https://github.com/sudoguy/dotfiles/blob/master/install/brew-cask.sh)
 
 ## Install
 
@@ -33,24 +33,24 @@ Install the dotfiles with either Git or curl:
 
 ### Clone with Git
 
-    git clone https://github.com/webpro/dotfiles.git ~/.dotfiles
+    git clone https://github.com/sudoguy/dotfiles.git ~/.dotfiles
     source ~/.dotfiles/install.sh
 
 ### Remotely install using curl
 
 Alternatively, you can install this into `~/.dotfiles` remotely without Git using curl:
 
-    bash -c "`curl -fsSL https://raw.github.com/webpro/dotfiles/master/remote-install.sh`"
+    bash -c "`curl -fsSL https://raw.github.com/sudoguy/dotfiles/master/remote-install.sh`"
 
 Or, using wget:
 
-    bash -c "`wget -O - --no-check-certificate https://raw.githubusercontent.com/webpro/dotfiles/master/remote-install.sh`"
+    bash -c "`wget -O - --no-check-certificate https://raw.githubusercontent.com/sudoguy/dotfiles/master/remote-install.sh`"
 
 ## The `dotfiles` command
 
     $ dotfiles help
     Usage: dotfiles <command>
-    
+
     Commands:
        clean            Clean up caches (brew, npm, gem, rvm)
        dock             Apply macOS Dock settings
