@@ -1,8 +1,16 @@
-*~
-._*
-.DS_Store
-.idea
-.vscode
-node_modules
-bower_components
-npm-debug.log
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+*.log
+
+# PyTest
+.pytest_cache/
+
+# Pyre check
+.pyre/
+.pyre_configuration

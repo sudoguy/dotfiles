@@ -40,6 +40,7 @@ apps=(
   ssh-copy-id
   tree
   unar
+  vim
   wget
   wifi-password
 )
