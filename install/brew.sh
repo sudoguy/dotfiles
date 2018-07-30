@@ -42,6 +42,8 @@ apps=(
   vim
   wget
   wifi-password
+  zsh
+  zsh-completions
 )
 
 brew install "${apps[@]}"
