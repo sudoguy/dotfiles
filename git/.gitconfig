@@ -9,11 +9,11 @@
 [user]
   name = sudoguy
   email = eskemerov@gmail.com
-  signingkey = C1C23EF4B041E218
+	signingkey = 744AB96CCED86075
 [push]
   default = simple
 [commit]
-  gpgsign = true
+	gpgSign = 0
 [core]
   excludesfile = ~/.gitignore_global
   editor = vim

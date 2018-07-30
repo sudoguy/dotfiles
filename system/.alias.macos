@@ -6,6 +6,8 @@ alias cpwd="pwd|tr -d '\n'|pbcopy"
 
 alias gg="$DOTFILES_GIT_GUI"
 
+alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+
 alias cask="brew cask"
 
 alias chrome="open -a ~/Applications/Google\ Chrome.app"
