@@ -1,0 +1,76 @@
+{
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "python.linting.pylintArgs": [
+        "--disable=C0413,W0703"
+    ],
+    "files.exclude": {
+        "**/__pycache__/": true,
+        ".idea/": true,
+        "**/*.pyc": true,
+        "**/.vscode/": true,
+        "**/.vs/": true,
+        ".pyre/": true,
+        ".pyre_configuration": true,
+        "**/.pytest_cache/": true,
+        "env/": true,
+        "**/htmlcov/": true,
+        "**/.coverage": true
+    },
+    "editor.renderWhitespace": "boundary",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 0,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501,E402,W503"
+    ],
+    "python.linting.flake8CategorySeverity.W": "Error",
+    "gitlens.keymap": "alternate",
+    "window.menuBarVisibility": "toggle",
+    "python.linting.pep8Path": "pycodestyle",
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": [
+        "--ignore=E501,E402,W503"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.fontFamily": "'Pragmata Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "python.formatting.provider": "black",
+    "explorer.openEditors.visible": 0,
+    "gitlens.historyExplorer.enabled": true,
+    "python.formatting.blackArgs": [
+        "--line-length=100"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "tslint.autoFixOnSave": true,
+    "tslint.enable": true,
+    "python.jediEnabled": false,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "telemetry.enableTelemetry": false,
+    "gitlens.advanced.telemetry.enabled": false,
+    "git.autofetch": true,
+    "githubPullRequests.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "editor.formatOnSave": true,
+}
